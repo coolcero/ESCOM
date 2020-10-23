@@ -22,7 +22,7 @@ public static void main(String[] args) {
             message = JOptionPane.showInputDialog("Ingrese el mensaje: ");
             Gronsfel gronsfeld = new Gronsfel(message, keyword);
             String cipherText = gronsfeld.encrypt();
-            System.out.println("El mensaje cifrado es: " + cipherText);
+            System.out.println("La palabra cifrada es: " + cipherText);
             JOptionPane.showMessageDialog(null, "El mensaje cifrado es: " + cipherText,
                     "Mensaje Cifrado", 1);
         }
