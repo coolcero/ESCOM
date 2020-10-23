@@ -18,7 +18,7 @@ public class Conexion {
 
     public void conectar() {
         try {
-            System.out.println("Generando conexión a Postgresql");
+            System.out.println("Generando conexión a Postgresql1");
             connection = DriverManager.getConnection("jdbc:postgresql://localhost/Seguridad", "postgres", "1234");
             Class.forName("org.postgresql.Driver");
             System.out.println("Conexión generada exitosamente");
