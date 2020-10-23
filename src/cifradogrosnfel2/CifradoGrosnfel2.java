@@ -13,7 +13,7 @@ public static void main(String[] args) {
         String[] buttons = {"Cifrar", "Descifrar"};
         String keyword;
         String message;
-        int option = JOptionPane.showOptionDialog(null, "Elija un opcion", "Cifrado Gronsfeld", 
+        int option = JOptionPane.showOptionDialog(null, "Elija un opcion", "Cifrado Gronsfeld2", 
                     JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, null, buttons, buttons[0]);
         
         //Cifrar mensaje
