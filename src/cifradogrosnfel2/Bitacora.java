@@ -16,7 +16,8 @@ public class Bitacora {
         
         
         try{
-            Statement stm = connection.createStatement();
+            Statement stm = connection.createStatement(); 
+            //comentario
             stm.executeUpdate("INSERT INTO public.bitacora(fecha, operacion, descripcion) "
                             + "VALUES ((select now()) ,'" + operacion + "', '" + descripcion + "')");
                     
